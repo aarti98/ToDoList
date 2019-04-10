@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+    <div class="container">
+    <div class="row justify-content-center align-items-center" style="height:100vh">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body row justify-content-center">
+            <form method="post" action="{% url 'login'%}">
+                {% csrf_token %}
+                <label for="username">Username:</label>
+                <input type="text" name="username" placeholder="Username" class="form-control">
+                <label for="password">Password:</label>
+                <input type="password" name="password" placeholder="Password" class="form-control">
+                <input type="submit" name="" value="Login">
+            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

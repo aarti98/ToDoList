@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}<h3> Welcome {{ user.username }} to ToDo List!</h3>
+    <p></p>
+<a href="{% url 'logout' %}"> <h5>Logout</h5></a>
+{% endblock %}
+
