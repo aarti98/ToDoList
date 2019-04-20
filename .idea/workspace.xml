@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ToDoApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="558">
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
             </state>
           </provider>
         </entry>
@@ -224,12 +224,12 @@
       <workItem from="1555490898847" duration="5270000" />
       <workItem from="1555602366475" duration="8651000" />
       <workItem from="1555663098534" duration="8158000" />
-      <workItem from="1555784682805" duration="852000" />
+      <workItem from="1555784682805" duration="1771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28596000" />
+    <option name="totallyTimeSpent" value="29515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-42" y="34" width="1014" height="1044" extended-state="0" />
@@ -475,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ToDoApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="558">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
