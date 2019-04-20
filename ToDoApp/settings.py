@@ -25,7 +25,7 @@ SECRET_KEY = 'rq_tjxli@u$zwe&qyw+)8%)#y-+k+hovu1-$j8-em_!ffi*g3f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['maketime.in']
 
 
 # Application definition
