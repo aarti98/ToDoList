@@ -4,6 +4,8 @@
     <list default="true" id="27c52b4b-bf76-4c49-94c7-692c80f41156" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../account/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/Account/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/templates/TaskList/update.html" beforeDir="false" />
@@ -64,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/ToDoApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -157,6 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/TaskList" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -221,18 +224,18 @@
       <workItem from="1555490898847" duration="5270000" />
       <workItem from="1555602366475" duration="8651000" />
       <workItem from="1555663098534" duration="8158000" />
-      <workItem from="1555784682805" duration="119000" />
+      <workItem from="1555784682805" duration="852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27863000" />
+    <option name="totallyTimeSpent" value="28596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-42" y="34" width="1014" height="1044" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19254659" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19254659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -246,7 +249,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28993437" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28993437" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -473,7 +476,7 @@
     <entry file="file://$PROJECT_DIR$/ToDoApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
