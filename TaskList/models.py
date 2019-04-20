@@ -7,12 +7,12 @@ from django.db.models.signals import post_save
 
 # Create your models here.
 class ToDoList(models.Model):
-    title = models.CharField(max_length=120)
-    description = models.TextField(help_text='Explain your task!', blank=True)
+    title        = models.CharField(max_length=120)
+    description  = models.TextField(blank=True)
     created_date = models.DateTimeField(default=timezone.now())
-    due_date = models.DateTimeField(default=timezone.now())
-    completed = models.BooleanField(default=False)
-    Author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    due_date     = models.DateTimeField(default=timezone.now())
+    completed    = models.BooleanField(default=False)
+    Author       = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.title

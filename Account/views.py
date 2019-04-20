@@ -6,10 +6,9 @@ from django.urls import reverse
 from django.contrib.auth.decorators import login_required
 
 
-@login_required
 def user_logout(request):
     logout(request)
-    return HttpResponseRedirect(reverse('homepage'))
+    return HttpResponseRedirect(reverse('login'))
 
 
 def register(request):
@@ -38,7 +37,7 @@ def user_login(request):
         if user:
             if user.is_active:
                 login(request,user)
-                return HttpResponseRedirect(reverse('homepage'))
+                return HttpResponseRedirect(reverse('list'))
             else:
                 return HttpResponse("Your registration was inactive.")
         else:

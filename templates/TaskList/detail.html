@@ -1,9 +1,23 @@
 {% extends 'base.html' %}
 
 {% block title %} Task Detail {% endblock %}
+{% block list %}
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{% url 'homepage' %}">ToDo List</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'add' %}">Add Task</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'logout' %}">Logout</a>
+        </li>
 
+      </ul>
+      </div>
+    </nav>
+{% endblock %}
 {% block content %}
-
   <h1>{{ task.title }}</h1>
   <p><strong>Description: {{ task.description }}</strong></p>
   <p>Created on: {{ task.created_date }}</p>
