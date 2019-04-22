@@ -10,7 +10,7 @@
       <change beforePath="$PROJECT_DIR$/../ToDoList/Account/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/templates/TaskList/update.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../website/.idea/website.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/.idea/website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ToDoApp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/manage.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/music/admin.py" beforeDir="false" />
@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ToDoApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="133" selection-start-line="133" selection-end-line="133" />
+            <state relative-caret-position="414">
+              <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -224,18 +224,19 @@
       <workItem from="1555490898847" duration="5270000" />
       <workItem from="1555602366475" duration="8651000" />
       <workItem from="1555663098534" duration="8158000" />
-      <workItem from="1555784682805" duration="1771000" />
+      <workItem from="1555784682805" duration="3046000" />
+      <workItem from="1555961115354" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29515000" />
+    <option name="totallyTimeSpent" value="30866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-42" y="34" width="1014" height="1044" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19254659" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.031055901" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -475,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ToDoApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        <state relative-caret-position="414">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
         </state>
       </provider>
     </entry>
