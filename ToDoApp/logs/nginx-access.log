@@ -588,3 +588,5 @@
 157.36.213.32 - - [22/Apr/2019:19:32:16 +0000] "POST /task/update/3 HTTP/1.1" 200 1110 "http://35.154.233.23/task/detail/3/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36"
 157.36.213.32 - - [22/Apr/2019:19:32:39 +0000] "POST /task/update/3 HTTP/1.1" 302 0 "http://35.154.233.23/task/update/3" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36"
 157.36.213.32 - - [22/Apr/2019:19:32:39 +0000] "GET /task/list/ HTTP/1.1" 200 807 "http://35.154.233.23/task/update/3" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36"
+157.36.195.69 - - [24/Apr/2019:11:22:12 +0000] "GET / HTTP/1.1" 404 209 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36"
+157.36.195.69 - - [24/Apr/2019:11:22:12 +0000] "GET /favicon.ico HTTP/1.1" 404 209 "http://13.233.138.49/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36"
