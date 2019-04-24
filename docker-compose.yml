@@ -3,8 +3,10 @@ version: '3'
 services:
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python /ToDoApp/manage.py runserver 0.0.0.0:8000
     volumes:
-        - .:/ToDoApp
+        - .:/Desktop/Projects/ToDoApp
     ports:
         - "8000:8000"
+    environment:
+      - SECRET_KEY = please_change_me
