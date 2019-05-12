@@ -15,7 +15,6 @@ COPY requirements.txt .
 
 #install dependencies
 RUN pip install pipenv
-COPY ./Pipfile /ToDoApp/Pipfile
 RUN pip install -r requirements.txt
 
 COPY . .
