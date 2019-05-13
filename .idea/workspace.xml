@@ -4,13 +4,11 @@
     <list default="true" id="27c52b4b-bf76-4c49-94c7-692c80f41156" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../account/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/Account/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/templates/TaskList/update.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../website/.idea/website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ToDoApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/.idea/website.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/manage.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/music/admin.py" beforeDir="false" />
@@ -61,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ToDoApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="377">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -244,12 +242,12 @@
       <workItem from="1557590628611" duration="847000" />
       <workItem from="1557650296811" duration="1714000" />
       <workItem from="1557772858207" duration="611000" />
-      <workItem from="1557775984491" duration="25000" />
+      <workItem from="1557775984491" duration="250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46814000" />
+    <option name="totallyTimeSpent" value="47039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
@@ -495,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ToDoApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="377">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>

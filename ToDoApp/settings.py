@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['13.233.138.49',
                  '13.233.67.233',
-                 'http://todo.maketime.in',
+                 'todo.maketime.in',
                  '35.154.233.23',
                  '0.0.0.0']
 
