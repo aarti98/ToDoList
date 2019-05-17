@@ -12,6 +12,7 @@ def user_logout(request):
 
 
 def register(request):
+    global registered
     registered = False
     if request.method == 'POST':
         user_form = UserSignUpForm(request.POST)
@@ -20,14 +21,17 @@ def register(request):
             user.set_password(user.password)
             user.save()
             registered = True
-            # return HttpResponseRedirect(reverse('add'))
+            return HttpResponseRedirect(reverse('login'))
+
         else:
             print(user_form.errors)
     else:
         user_form = UserSignUpForm()
-    return render(request, 'Account/registration.html',
-                  {'user_form':user_form,
-                           'registered':registered})
+
+    context = {'registered': registered,
+               'user_form': user_form
+               }
+    return render(request, 'Account/registration.html', context)
 
 
 def user_login(request):
@@ -42,8 +46,8 @@ def user_login(request):
             else:
                 return HttpResponse("Your registration was inactive.")
         else:
-            print("Someone tried to login and failed.")
-            print("They used username: {} and password: {}".format(username,password))
+            # print("Someone tried to login and failed.")
+            # print("They used username: {} and password: {}".format(username,password))
             return HttpResponse("Invalid login details given")
     else:
         return render(request, 'Account/login.html', {})
