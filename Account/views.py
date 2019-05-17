@@ -23,8 +23,8 @@ def register(request):
             registered = True
             return HttpResponseRedirect(reverse('login'))
 
-        else:
-            print(user_form.errors)
+        # else:
+            # print(user_form.errors)
     else:
         user_form = UserSignUpForm()
 
