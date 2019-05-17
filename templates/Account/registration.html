@@ -23,16 +23,17 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-body row justify-content-center">
-                    {% if registered %}
-                        <h1>Thank you for registering!</h1>
-                    {% else %}
+{#                    {% if registered %}#}
+{#                        <h1>Thank you for registering!</h1>#}
+{##}
+{#                    {% else %}#}
                         <form method="POST" action="{% url 'register' %}" enctype="multipart/form-data">
                         {% csrf_token %}
                         {{ user_form.as_p }}
                         <input type="submit" name="" value="Register" class="btn btn-primary"
                                style="margin-left: 45%">
                         </form>
-                    {% endif %}
+{#                    {% endif %}#}
                 </div>
                 </div>
             </div>
