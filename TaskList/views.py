@@ -77,10 +77,10 @@ def task_update(request,id):
         form = UpdateTaskForm(request.POST, instance=task)
         if form.is_valid():
             task.description = form.cleaned_data['description']
-            print(task)
+            # print(task)
             task.save()
             form.save()
-            print(task)
+            # print(task)
             return redirect(reverse('list'))
 
     else:
