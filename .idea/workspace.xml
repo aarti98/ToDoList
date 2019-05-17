@@ -4,8 +4,6 @@
     <list default="true" id="27c52b4b-bf76-4c49-94c7-692c80f41156" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../account/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Account/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/Account/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/templates/TaskList/update.html" beforeDir="false" />
@@ -346,16 +344,15 @@
       <workItem from="1557650296811" duration="1714000" />
       <workItem from="1557772858207" duration="611000" />
       <workItem from="1557775984491" duration="661000" />
-      <workItem from="1558090134741" duration="17531000" />
+      <workItem from="1558090134741" duration="17887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64981000" />
+    <option name="totallyTimeSpent" value="65337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1020" y="68" width="967" height="1044" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18715996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
