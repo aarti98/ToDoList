@@ -1,14 +1,15 @@
 from django.shortcuts import render,redirect,reverse
 from django.shortcuts import get_object_or_404
-
+from django.contrib.auth.decorators import login_required
 from .models import ToDoList
 from .forms import AddTaskForm, UpdateTaskForm
 
 
 # Function to list the tasks and completed tasks
+@login_required
 def task_list(request):
-    tasks = ToDoList.objects.all()
-    completed_tasks = ToDoList.objects.filter(completed__exact='True')
+    tasks = ToDoList.objects.filter(user=request.user)
+    completed_tasks = ToDoList.objects.filter(user=request.user).filter(completed__exact='True')
 
     context = {
         'tasks': tasks,

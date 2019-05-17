@@ -20,6 +20,7 @@ def register(request):
             user.set_password(user.password)
             user.save()
             registered = True
+            # return HttpResponseRedirect(reverse('add'))
         else:
             print(user_form.errors)
     else:

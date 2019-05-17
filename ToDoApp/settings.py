@@ -30,7 +30,8 @@ ALLOWED_HOSTS = ['13.233.138.49',
                  '13.233.67.233',
                  'todo.maketime.in',
                  '35.154.233.23',
-                 '0.0.0.0']
+                 '0.0.0.0',
+                 '127.0.0.1']
 
 
 # Application definition
@@ -118,7 +119,6 @@ AUTH_USER_MODEL = 'Account.User'
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
 
 USE_L10N = True
@@ -131,8 +131,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static')
+# ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static') # folder where staticfiles will be stored after collectstatic

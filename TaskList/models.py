@@ -1,6 +1,7 @@
 from django.db import models
 from django.conf import settings
 from django.utils import timezone
+from datetime import date
 from Account.models import User
 from django.db.models.signals import post_save
 
@@ -9,10 +10,10 @@ from django.db.models.signals import post_save
 class ToDoList(models.Model):
     title        = models.CharField(max_length=120)
     description  = models.TextField(blank=True)
-    created_date = models.DateTimeField(default=timezone.now())
-    due_date     = models.DateTimeField(default=timezone.now())
+    created_date = models.DateField(default=date.today)
+    due_date     = models.DateField(default=date.today)
     completed    = models.BooleanField(default=False)
-    Author       = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    user         = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.title
