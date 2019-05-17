@@ -21,10 +21,10 @@ def register(request):
             user.set_password(user.password)
             user.save()
             registered = True
-            # return HttpResponseRedirect(reverse('login'))
 
-        # else:
+        else:
             # print(user_form.errors)
+            pass
     else:
         user_form = UserSignUpForm()
 
