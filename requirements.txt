@@ -4,7 +4,7 @@ botocore==1.12.128
 cachetools==3.1.0
 certifi==2019.3.9
 chardet==3.0.4
-Django==2.1.7
+Django==2.2.10
 django-bootstrap4==0.0.8
 django-cloud-deploy==0.2.1
 django-crispy-forms==1.7.2
